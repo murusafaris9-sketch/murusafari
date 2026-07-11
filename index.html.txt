@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muru Safari Udawalawe - Official Booking Page</title>
+    <!-- Tailwind CSS for modern design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for beautiful typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for professional icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .serif-title { font-family: 'Cinzel', serif; }
+        .safari-bg {
+            background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.85) 25%, rgba(0,0,0,0.4) 100%), 
+                              url('https://images.unsplash.com/photo-1581888227599-779811939961?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center bottom;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+
+    <!-- TOP FLYER HEADER -->
+    <header class="text-center pt-10 pb-6 px-4 bg-white">
+        <h2 class="text-emerald-800 text-2xl md:text-4xl font-extrabold tracking-widest uppercase mb-1">
+            Udawalawe National Park
+        </h2>
+        <h1 class="serif-title text-4xl md:text-6xl font-black text-black tracking-tight uppercase">
+            Muru Safari
+        </h1>
+    </header>
+
+    <!-- MAIN MARKETING AND DETAILED PRICING INTERFACE -->
+    <main class="flex-grow safari-bg pb-32">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            
+            <!-- UPPER GRID: OVERVIEW & PROMO PRICE -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                
+                <!-- Normal Safari Promo Card -->
+                <div class="bg-white/95 rounded-2xl p-6 shadow-xl border border-emerald-100 flex flex-col justify-between text-center transition-all hover:scale-[1.02]">
+                    <div>
+                        <span class="inline-block bg-emerald-700 text-white font-bold text-lg px-6 py-2 rounded-full shadow-md mb-4">
+                            Normal Safari
+                        </span>
+                        <p class="text-slate-600 text-sm leading-relaxed px-2">
+                            You'll be amazed at how much of the park's diverse terrain you can discover in a three-hour tour.
+                        </p>
+                    </div>
+                    <div class="mt-6">
+                        <p class="text-xs text-slate-500 font-semibold italic">(Per person cost of the group of six)</p>
+                        <div class="flex items-center justify-center gap-3 my-2">
+                            <span class="text-2xl text-slate-400 line-through font-bold">$10</span>
+                            <span class="text-5xl text-emerald-700 font-extrabold">$08</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-medium">(Price varies by group size)</p>
+                    </div>
+                </div>
+
+                <!-- Half Day Safari Promo Card -->
+                <div class="bg-white/95 rounded-2xl p-6 shadow-xl border border-emerald-100 flex flex-col justify-between text-center transition-all hover:scale-[1.02]">
+                    <div>
+                        <span class="inline-block bg-emerald-700 text-white font-bold text-lg px-6 py-2 rounded-full shadow-md mb-4">
+                            Half Day Safari
+                        </span>
+                        <p class="text-slate-600 text-sm leading-relaxed px-2">
+                            Embark on a 5-6 hour safari adventure, covering vast ground for unmatched wildlife encounters, photo opportunities, and even chances to step out and explore.
+                        </p>
+                    </div>
+                    <div class="mt-6">
+                        <p class="text-xs text-slate-500 font-semibold italic">(Per person cost of the group of six)</p>
+                        <div class="flex items-center justify-center gap-3 my-2">
+                            <span class="text-2xl text-slate-400 line-through font-bold">$20</span>
+                            <span class="text-5xl text-emerald-700 font-extrabold">$16</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-medium">(Price varies by group size)</p>
+                    </div>
+                </div>
+
+                <!-- Full Day Safari Promo Card -->
+                <div class="bg-white/95 rounded-2xl p-6 shadow-xl border border-emerald-100 flex flex-col justify-between text-center transition-all hover:scale-[1.02]">
+                    <div>
+                        <span class="inline-block bg-emerald-700 text-white font-bold text-lg px-6 py-2 rounded-full shadow-md mb-4">
+                            Full Day Safari
+                        </span>
+                        <p class="text-slate-600 text-sm leading-relaxed px-2">
+                            The Ultimate Explorer's Safari: Journey across vast, diverse landscapes on a full-day adventure designed for photographers, wildlife enthusiasts, and anyone eager to discover the park's deepest secrets.
+                        </p>
+                    </div>
+                    <div class="mt-6">
+                        <p class="text-xs text-slate-500 font-semibold italic">(Per person cost of the group of six)</p>
+                        <div class="flex items-center justify-center gap-3 my-2">
+                            <span class="text-2xl text-slate-400 line-through font-bold">$30</span>
+                            <span class="text-5xl text-emerald-700 font-extrabold">$25</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-medium">(Price varies by group size)</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- LOWER GRID: DETAILED BREAKDOWN (GLASSMORPHISM CARDS OVER THE ELEPHANT BACKGROUND) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Normal Safari Details Table -->
+                <div class="backdrop-blur-md bg-white/85 rounded-2xl p-6 shadow-2xl border border-white/40 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-center font-bold text-emerald-900 border-b-2 border-emerald-700/30 pb-2 mb-4 uppercase tracking-wider text-sm">
+                            Normal Safari Pricing
+                        </h4>
+                        <ul class="space-y-2 text-sm font-semibold text-slate-800">
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>1 ADULT</span> <span class="font-bold text-emerald-800">30$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>2 ADULTS</span> <span class="font-bold text-emerald-800">40$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>3 ADULTS</span> <span class="font-bold text-emerald-800">45$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>4 ADULTS</span> <span class="font-bold text-emerald-800">60$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>5 ADULTS</span> <span class="font-bold text-emerald-800">65$</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mt-6 space-y-2">
+                        <div class="bg-red-500/10 border border-red-500/20 text-red-700 text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide">
+                            Free of charge for child below 6 years
+                        </div>
+                        <div class="bg-emerald-600 text-white text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide shadow-sm">
+                            Free Hotel Pickup & Drop <span class="block text-[10px] font-normal normal-case">(Within 5 KM From Entrance)</span>
+                        </div>
+                        <a href="https://wa.me/94775143592?text=Hi%20Muru%20Safari!%20I%20want%20to%20book%20a%20Normal%20Safari%20tour." 
+                           target="_blank" 
+                           class="block text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-xl transition shadow-md mt-4">
+                           <i class="fab fa-whatsapp mr-1 text-lg align-middle"></i> Book Normal Safari
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Half Day Safari Details Table -->
+                <div class="backdrop-blur-md bg-white/85 rounded-2xl p-6 shadow-2xl border border-white/40 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-center font-bold text-emerald-900 border-b-2 border-emerald-700/30 pb-2 mb-4 uppercase tracking-wider text-sm">
+                            Half Day Safari Pricing
+                        </h4>
+                        <ul class="space-y-2 text-sm font-semibold text-slate-800">
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>1 ADULT</span> <span class="font-bold text-emerald-800">55$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>2 ADULTS</span> <span class="font-bold text-emerald-800">60$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>3 ADULTS</span> <span class="font-bold text-emerald-800">75$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>4 ADULTS</span> <span class="font-bold text-emerald-800">85$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>5 ADULTS</span> <span class="font-bold text-emerald-800">92$</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mt-6 space-y-2">
+                        <div class="bg-amber-600/10 border border-amber-600/20 text-amber-800 text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide">
+                            Included for free: Water Bottles, Fresh Fruits, Tea/Coffee/Milk
+                        </div>
+                        <div class="bg-red-500/10 border border-red-500/20 text-red-700 text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide">
+                            Free of charge for child below 6 years
+                        </div>
+                        <div class="bg-emerald-600 text-white text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide shadow-sm">
+                            Free Hotel Pickup & Drop <span class="block text-[10px] font-normal normal-case">(Within 5 KM From Entrance)</span>
+                        </div>
+                        <a href="https://wa.me/94775143592?text=Hi%20Muru%20Safari!%20I%20want%20to%20book%20a%20Half%20Day%20Safari%20tour." 
+                           target="_blank" 
+                           class="block text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-xl transition shadow-md mt-4">
+                           <i class="fab fa-whatsapp mr-1 text-lg align-middle"></i> Book Half Day Safari
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Full Day Safari Details Table -->
+                <div class="backdrop-blur-md bg-white/85 rounded-2xl p-6 shadow-2xl border border-white/40 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-center font-bold text-emerald-900 border-b-2 border-emerald-700/30 pb-2 mb-4 uppercase tracking-wider text-sm">
+                            Full Day Safari Pricing
+                        </h4>
+                        <ul class="space-y-2 text-sm font-semibold text-slate-800">
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>1 ADULT</span> <span class="font-bold text-emerald-800">83$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>2 ADULTS</span> <span class="font-bold text-emerald-800">127$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>3 ADULTS</span> <span class="font-bold text-emerald-800">150$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>4 ADULTS</span> <span class="font-bold text-emerald-800">187$</span></li>
+                            <li class="flex justify-between bg-white/50 p-2 rounded"><span>5 ADULTS</span> <span class="font-bold text-emerald-800">198$</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mt-6 space-y-2">
+                        <div class="bg-amber-600/10 border border-amber-600/20 text-amber-800 text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide">
+                            Included for free: Water, Fruits, Tea/Coffee/Milk, Breakfast & Lunch
+                        </div>
+                        <div class="bg-red-500/10 border border-red-500/20 text-red-700 text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide">
+                            Free of charge for child below 6 years
+                        </div>
+                        <div class="bg-emerald-600 text-white text-xs font-bold text-center py-2 rounded-lg uppercase tracking-wide shadow-sm">
+                            Free Hotel Pickup & Drop <span class="block text-[10px] font-normal normal-case">(Within 5 KM From Entrance)</span>
+                        </div>
+                        <a href="https://wa.me/94775143592?text=Hi%20Muru%20Safari!%20I%20want%20to%20book%20a%20Full%20Day%20Safari%20tour." 
+                           target="_blank" 
+                           class="block text-center bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-xl transition shadow-md mt-4">
+                           <i class="fab fa-whatsapp mr-1 text-lg align-middle"></i> Book Full Day Safari
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FLOATING FIXED ACTIONS AT BOTTOM (Matching Image Footer Layout) -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-md shadow-[0_-5px_20px_rgba(0,0,0,0.1)] border-t border-slate-200 py-3 z-50">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            
+            <!-- Quick Branding -->
+            <div class="hidden md:block text-slate-700 text-sm font-semibold">
+                📍 Udawalawe National Park Entrance, Sri Lanka
+            </div>
+
+            <!-- Booking Buttons Row -->
+            <div class="flex flex-wrap items-center justify-center gap-4 w-full sm:w-auto">
+                <!-- Phone Contact Pill -->
+                <a href="tel:+94775143592" class="bg-slate-900 hover:bg-black text-white px-5 py-3 rounded-full font-bold text-sm shadow-md transition flex items-center gap-2">
+                    <i class="fas fa-phone-alt text-emerald-400"></i> +94 77 514 3592
+                </a>
+
+                <!-- WhatsApp Hotlink Pill -->
+                <a href="https://wa.me/94775143592?text=Hello%20Muru%20Safari!%20I%20would%20like%20to%20check%20availability%20for%20a%20jeep%20safari." 
+                   target="_blank" 
+                   class="bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 rounded-full font-extrabold text-sm shadow-md transition flex items-center gap-2 uppercase tracking-wide">
+                    Book Now <i class="fas fa-angle-double-right text-xs"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FLOATING CHAT CHICKLET -->
+    <a href="https://wa.me/94775143592" 
+       target="_blank" 
+       class="fixed bottom-20 right-4 bg-emerald-500 hover:bg-emerald-600 text-white text-3xl w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 z-50 md:bottom-24"
+       title="Chat via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
